@@ -1,5 +1,2 @@
-while True:
-    n = int(input("Введи число: "))
-    b = bin(n)[2:]
-    b = b.zfill(8)
-    print(b)
+a = int(input())
+print(format(a, '08b'))
